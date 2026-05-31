@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+div {
+    background-image: linear-gradient(green,gold);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+div h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button:hover {
+    border: solid 3px green;
+    padding: 50px;
+    background-image: linear-gradient(to right,red, green);
+    transition: all 2s ease-out;
+}
+
+.button {
+    width: 350px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.div2 {
+    background-image: linear-gradient(yellow,green);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.div2 a {
+    text-decoration: none;
+    color: white;
+}
